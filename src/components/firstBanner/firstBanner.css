@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400&display=swap");
+
+.firstBanner-maxGen {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 200px; */
+}
+
+.firstbannerCoverB {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+
+  background: rgba(0, 0, 0, 0.8);
+  /* background: #003399; */
+}
+.firstBanner-maxGenF {
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 2px;
+}
+.firstBanner-maxGenF span {
+  text-decoration: underline;
+  background: linear-gradient(99deg, #fab800 0%, #2185fc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.firstBanner-maxGenSS {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstBanner_searchGen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.firstBanner_searchInput {
+  width: 450px;
+  margin-right: 10px;
+}
+.firstBanner_searchInput input {
+  width: 100%;
+  outline: none;
+  border: none;
+  /* height: 50px; */
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500px;
+  font-style: normal;
+
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.firstBanner_selectGen {
+  width: 250px;
+  margin-right: 10px;
+}
+
+.firstBanner_selectGen select {
+  width: 100%;
+  outline: none;
+  border: none;
+  /* height: 50px; */
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500px;
+  font-style: normal;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.firstBanner_searchBtn {
+  padding: 15px;
+  width: 180px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  background: linear-gradient(127deg, #fab800 0%, #2185fc 100%);
+  box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.2);
+
+  cursor: pointer;
+  transition: 0.5s ease-in-out 0s;
+  border-radius: 30px;
+  /* margin-right: 10px; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  /* border: 2px solid #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstBanner_searchBtnsearc {
+  padding: 15px;
+  width: 420px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  background: #f05521;
+  cursor: pointer;
+  transition: 0.3s ease-in-out 0s;
+  border-radius: 20px;
+  /* margin-right: 10px; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstBanner_searchBtnsearc:hover {
+  background: linear-gradient(127deg, #2185fc 0%, #fab800 100%);
+  transform: scale(1.05);
+}
+.firstBanner_searchBtn:hover {
+  background: linear-gradient(127deg, #2185fc 0%, #fab800 100%);
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 992px) {
+  .banner_fMobile {
+    margin-top: 20px;
+  }
+
+  .firstBanner_searchGen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .firstBanner_searchInput {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .firstBanner_selectGen {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .firstBanner_searchBtn {
+    width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
+  }
+
+  .firstBanner_searchBtnsearc {
+    width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+  }
+
+  .firstBanner-maxGenF {
+    font-size: 20px;
+  }
+
+  .firstBanner-maxGenSS {
+    font-size: 15px;
+  }
+  .firstBanner_searchInput input {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 381px) {
+  .firstBanner-maxGenF {
+    font-size: 15px;
+  }
+  .firstBanner-maxGenSS {
+    font-size: 11px;
+  }
+}

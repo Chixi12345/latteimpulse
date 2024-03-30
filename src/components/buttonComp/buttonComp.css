@@ -1,0 +1,24 @@
+.button_comp_fam {
+  border-radius: 39px;
+  /* background: linear-gradient(127deg, #85c04e 0%, #3c3d73 100%); */
+
+  background: #3c3d73;
+  box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.2);
+  padding: 12px 30px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out 0s;
+}
+
+.button_comp_fam:hover {
+  box-shadow: none;
+  transform: scale(1.05);
+}

@@ -1,0 +1,225 @@
+@media screen and (max-width: 992px) {
+  .top-navbar-rel {
+    position: relative;
+  }
+  .sidemenu-family-cont {
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* height: 100vh; */
+    width: 100%;
+
+    /* background: rgba(51, 51, 51, 0.9); */
+
+    background: linear-gradient(180deg, #85c04e 0%, #3c3d73 100%);
+    /* backdrop-filter: blur(20px); */
+    margin-top: 80px;
+    z-index: 100000;
+    /* overflow-y: scroll; */
+    overflow-y: auto;
+    /* padding-bottom: 700px; */
+    /* overflow-y: hidden; */
+  }
+  .sidemenu-user-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  /* .cancel-menu {
+    margin-left: 40px;
+    opacity: 0;
+  } */
+  .menu-avatar-cont {
+    margin-right: 40px;
+  }
+  .nav-username {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #333333;
+  }
+  .nav-email {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 1px;
+    color: #36a6a4;
+
+    opacity: 0.7;
+  }
+  .side-menu-option {
+    display: flex;
+
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 47px;
+
+    /* White */
+
+    background: #ffffff;
+    border-bottom: 1px solid #cbd5e0;
+  }
+
+  .left-align-user-details {
+    display: flex;
+    align-items: center;
+  }
+
+  .details-left-cont {
+    margin-left: 70px;
+  }
+  .added-to-fit {
+    width: 41px;
+    height: 40px;
+    margin-right: 40px;
+    background: green;
+  }
+
+  .options-img {
+    margin-left: 20px;
+  }
+  .option-label {
+    font-family: "Poppins";
+    font-style: normal;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+
+    /* Text color */
+
+    color: #333333;
+    margin-left: 70px;
+    text-decoration: none;
+  }
+  .cont-main {
+    position: relative;
+    /* padding-bottom: 100px; */
+    height: 100vh;
+    /* padding-bottom: 50px; */
+    z-index: 90000000;
+  }
+  .logout-family-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    bottom: 100px;
+    /* Primary/light */
+
+    background: #f5f5f5;
+    border-radius: 6px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    color: #fa1414;
+    /* z-index: 10000000; */
+  }
+  .logout-family-cont img {
+    margin-right: 10px;
+    /* height: 18px;
+    width: 18px; */
+  }
+  .logout-text {
+    margin-top: -4px;
+  }
+
+  .leftNavbar-opt {
+    width: 100%;
+    border-bottom: 1.5px solid #dbd9d9;
+    /* height: 60px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .leftNavbar-optExam {
+    width: 100%;
+    border-bottom: 1.5px solid #dbd9d9;
+    /* height: 60px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #f2f2f2;
+    cursor: pointer;
+    background: #797a7b;
+    transition: 0.5s;
+  }
+
+  .leftNavbar-opt-active {
+    width: 100%;
+    border-bottom: 1.5px solid #dbd9d9;
+    /* height: 60px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* background-color: #000; */
+
+    background: linear-gradient(127deg, #3c3d73 0%, #85c04e 100%);
+
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .Faq-titleArrowRota {
+    transition: 0.5s;
+    transform: rotate(180deg);
+    margin-left: 20px;
+  }
+
+  .Faq-titleArrow {
+    transition: 0.5s;
+    transform: rotate(360deg);
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .leftNavbar-opt-active {
+    font-size: 13px;
+  }
+
+  .leftNavbar-opt {
+    font-size: 13px;
+  }
+
+  .leftNavbar-optExam {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,17 @@
+.pageHeading__ {
+  position: absolute;
+  color: #3c3d73;
+  top: 30px;
+  /* right: 0px; */
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+  .pageHeading__ {
+    top: 100px;
+  }
+}

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400&display=swap");
+
+.searchAll_sectionOneCont {
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+
+  /* background: rgba(0, 0, 0, 0.8); */
+  /* background: #f4feff; */
+  /* background: linear-gradient(to bottom, #fff, #e2f1d3); */
+}
+.searchAll_sectionOne_gen {
+  max-width: 1200px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+}
+
+.flex__allProduct {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.all_product_searchInput {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50px;
+}
+
+.all_product_searchInput input {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.2);
+  background: linear-gradient(127deg, #85c04e 0%, #3c3d73 100%);
+  color: #fff;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.all_product_searchInput input::placeholder {
+  color: #fff;
+}
+
+.special_topSellling__ {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #3c3d73;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .searchAll_sectionOne_gen {
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  .all_product_searchInput {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .searchAll_sectionOne_gen {
+    padding-top: 130px;
+  }
+}

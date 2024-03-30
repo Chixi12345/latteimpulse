@@ -1,0 +1,14 @@
+.services_catergoryEach_head {
+  color: rgba(39, 39, 47, 0.5);
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.services_catergoryEach_mainPara {
+  color: rgb(129, 129, 129);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  max-width: 700px;
+  text-align: center;
+}

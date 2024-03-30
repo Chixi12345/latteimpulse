@@ -1,0 +1,248 @@
+.select-modal-body {
+  /* display: none; Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 300; /* Sit on top */
+  /* padding-top: 100px;  */
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
+  width: 100%; /* Full width */
+
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /* background: #171923; */
+  background: rgba(23, 25, 35, 0.7);
+  /* opacity: 0.7; */
+  /* backdrop-filter: blur(10px); */
+}
+
+.select-modalBody-cont {
+  position: absolute;
+  bottom: 0;
+  height: 70%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+
+  overflow-y: scroll;
+  -webkit-animation-name: animatedown;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatedown;
+  animation-duration: 0.4s;
+  transition: transform 0.3s ease-in-out;
+
+  /* transition: 0.3s ease-in-out 0s; */
+  left: 0;
+  right: 0;
+
+  border-radius: 14px 14px 0px 0px;
+  /* padding: 10px; */
+}
+
+@-webkit-keyframes animatedown {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatedown {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.cancel_formModal {
+  color: #3c3d73;
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  /* text-align: right; */
+  /* align-items: flex-end;
+  justify-content: flex-end;
+  display: flex; */
+  /* margin-right: auto; */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.3s ease-in-out 0s;
+}
+
+.cancel_formModal:hover {
+  transform: scale(1.1);
+  /* color: #f26a3c; */
+}
+
+.modal_GenBod {
+  margin-top: 50px;
+  color: #3c3d73;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_productTitle {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  padding: 10px 30px;
+  width: fit-content;
+  border-radius: 30px;
+
+  background: linear-gradient(127deg, #85c04e 0%, #3c3d73 100%);
+  box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.2);
+
+  /* text-align: center; */
+}
+
+.modal_productDescParent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.modal_productDescParent_img {
+  width: 49%;
+}
+
+.modal_productDescParent_img img {
+  width: 500px;
+  height: 600px;
+  border-radius: 30px;
+}
+
+.modal_productDescParent__descrip {
+  width: 49%;
+  color: #3c3d73;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 200%;
+}
+.modalForm_Flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.flexOne_formHeader {
+  color: #3c3d73;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+.flexOne_formParagraph {
+  color: #3c3d73;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flexOne_formParaSub {
+  color: #3c3d73;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 25px;
+}
+
+.flexOne_formParaSubTel {
+  margin-top: 5px;
+  color: #3c3d73;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.modalForm_flexOneGen {
+  width: 45%;
+  margin-right: 20px;
+}
+
+.modalForm_flexTwoGen {
+  width: 45%;
+}
+
+/* .form_GenFam {
+  position: relative;
+} */
+
+.form_genHeading {
+  color: #3c3d73;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .modalForm_Flex {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .modal_productDescParent {
+    flex-direction: column;
+  }
+
+  .modal_productDescParent_img {
+    width: 90%;
+  }
+
+  .modal_productDescParent_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+  }
+
+  .modal_productDescParent__descrip {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .modalForm_flexTwoGen {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .modalForm_flexOneGen {
+    margin-top: 50px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form_genHeading {
+    width: 200px;
+  }
+}
