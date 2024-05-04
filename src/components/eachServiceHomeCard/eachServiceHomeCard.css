@@ -75,3 +75,9 @@
   width: 32px;
   height: 32px;
 }
+
+@media screen and (max-width: 992px) {
+  .each_service_home_card_body {
+    width: 90%;
+  }
+}

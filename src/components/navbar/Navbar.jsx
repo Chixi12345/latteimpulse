@@ -89,7 +89,7 @@ const Navbar = () => {
             className="mobilenavbar-optMenulogo"
             style={{ textDecoration: "none" }}
           >
-            <img src={fenip_logo} />
+            <img src={latte_impulse_logoo} />
           </Link>
           <div>
             <Burger />
@@ -104,7 +104,7 @@ const Navbar = () => {
                 {/* <HeaderTRightCont
                   href="tel:+2349076351112"
                   icon={<FaPhoneAlt />}
-                  iconText="+234 813 284 1719"
+                  iconText="+234 803 347 7604"
                 /> */}
                 <div className="borderRight"></div>
                 <div className="discount_textColor">
@@ -114,7 +114,7 @@ const Navbar = () => {
                 {/* <HeaderTRightCont
                   href="https://wa.me/2349076351112/"
                   icon={<FaWhatsapp />}
-                  iconText="+234 813 284 1719"
+                  iconText="+234 803 347 7604"
                 /> */}
                 <div className="borderRight"></div>
                 {/* <HeaderTRightCont
@@ -257,10 +257,15 @@ const Navbar = () => {
                   Contact
                 </Link>
               </div>
-              <div onClick={navigateAllProduct} className="products_famGen">
-                {" "}
+
+              <a
+                href="https://api.whatsapp.com/send?phone=+2348033477608&text=I%20am%20reaching%20out%20to%20explore%20your%20business%20offering."
+                target="_blank"
+                className="products_famGen"
+                style={{ textDecoration: "none" }}
+              >
                 Get Started
-              </div>
+              </a>
             </div>
             {/* {isMenuDropDownOpen && ( */}
             <div

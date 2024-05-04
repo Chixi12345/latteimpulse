@@ -26,7 +26,7 @@ const Contact = () => {
         <div className="contactUs_sectionOne_gen">
           <a
             aria-label="Chat on WhatsApp"
-            href="https://wa.me/8132841719?text= I'm%20interested%20in%20your%20health%20products%20and%20would%20like%20to%20learn%20more%20about%20what%20you%20offer🛒."
+            href="https://api.whatsapp.com/send?phone=+2348033477608&text=I%20am%20reaching%20out%20to%20explore%20your%20business%20offering."
             target="_blank"
             className="whatsappStickbody"
           >
@@ -59,7 +59,7 @@ const Contact = () => {
                 <LocationIcon fill="#3c3d73" />
               </div>
               <div className="contact_genRightCont_ImgText">
-                8, Badiru Street, Dopemu, Lagos State.
+                House 3 Block B Ama Pepple Estate Isheri Lasu Road, Lagos.
               </div>
             </div>
 
@@ -68,7 +68,16 @@ const Contact = () => {
                 <PhoneIcon fill="#3c3d73" />
               </div>
               <div className="contact_genRightCont_ImgText">
-                +234 813 284 1719
+                +234 708 110 0729
+              </div>
+            </div>
+
+            <div className="contact_genRightCont_">
+              <div className="contact_genRightCont_Img">
+                <PhoneIcon fill="#3c3d73" />
+              </div>
+              <div className="contact_genRightCont_ImgText">
+                +234 803 347 7604
               </div>
             </div>
 
@@ -77,23 +86,35 @@ const Contact = () => {
                 <EmailIcon fill="#3c3d73" />
               </div>
               <div className="contact_genRightCont_ImgText">
-                feniphfc@gmail.com
+                latteimpulsesolutions@gmail.com
               </div>
             </div>
 
             <div className="contact_social_accts">
-              <div className="contact_social_each">
+              {/* <div className="contact_social_each">
                 <Youtube fill="#3c3d73" />
-              </div>
-              <div className="contact_social_each">
+              </div> */}
+
+              <a
+                href="https://web.facebook.com/profile.php?id=61558437594591"
+                target="_blank"
+                style={{ textDecoration: "none", color: "#fff" }}
+                className="contact_social_each"
+              >
                 <Facebook fill="#3c3d73" />
-              </div>
-              <div className="contact_social_each">
+              </a>
+
+              <a
+                href="https://www.instagram.com/levit7tjc/"
+                target="_blank"
+                style={{ textDecoration: "none", color: "#fff" }}
+                className="contact_social_each"
+              >
                 <Instagram fill="#3c3d73" />
-              </div>
-              <div className="contact_social_each">
+              </a>
+              {/* <div className="contact_social_each">
                 <Twitter fill="#3c3d73" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -12,9 +12,9 @@
 
     /* background: rgba(51, 51, 51, 0.9); */
 
-    background: linear-gradient(180deg, #85c04e 0%, #3c3d73 100%);
+    background: linear-gradient(180deg, #fab800 0%, #2185fc 100%);
     /* backdrop-filter: blur(20px); */
-    margin-top: 80px;
+    margin-top: 65px;
     z-index: 100000;
     /* overflow-y: scroll; */
     overflow-y: auto;
@@ -190,7 +190,7 @@
     font-size: 16px;
     /* background-color: #000; */
 
-    background: linear-gradient(127deg, #3c3d73 0%, #85c04e 100%);
+    background: linear-gradient(127deg, #fab800 0%, #2185fc 100%);
 
     color: #fff;
     cursor: pointer;

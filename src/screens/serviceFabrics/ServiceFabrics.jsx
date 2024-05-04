@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./serviceFabrics.css";
 import Navbar from "../../components/navbar/Navbar";
 import ProductImg from "../../components/productList/ProductImg";
@@ -6,15 +6,21 @@ import FirstBanner from "../../components/firstBanner/FirstBanner";
 import ServiceBitcoinComp from "../../components/serviceBitcoinComp/ServiceBitcoinComp";
 import GetStartedSection from "../../components/getStartedSection/GetStartedSection";
 import Footer from "../../components/footer/Footer";
+import { useLocation } from "react-router-dom";
 
 const ServiceFabrics = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <div>
       <Navbar />
 
       <a
         aria-label="Chat on WhatsApp"
-        href="https://wa.me/8132841719?text= I'm%20interested%20in%20your%20health%20products%20and%20would%20like%20to%20learn%20more%20about%20what%20you%20offer🛒."
+        href="https://api.whatsapp.com/send?phone=+2348033477608&text=I%20am%20reaching%20out%20to%20explore%20your%20business%20offering."
         target="_blank"
         className="whatsappStickbody"
       >

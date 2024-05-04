@@ -18,7 +18,9 @@ import {
   NutraceuticalPage,
   RespiratoryCarePage,
   SearchAllProductPage,
+  ServiceAnimalFarmPage,
   ServiceAutoPage,
+  ServiceCosmeticsPage,
   ServiceDogPage,
   ServiceFabricsPage,
   ServiceFashionPage,
@@ -198,6 +200,14 @@ const RoutesE = () => {
     {
       path: "/services/tomatoes-farm",
       element: <ServiceTomatoesFarmPage />,
+    },
+    {
+      path: "/services/cosmetics",
+      element: <ServiceCosmeticsPage />,
+    },
+    {
+      path: "/services/animal-farm",
+      element: <ServiceAnimalFarmPage />,
     },
   ]);
   return routes;

@@ -14,8 +14,13 @@ import supermart_ex from "../../assets/images/supermart_ex.png";
 import solar_solut_ex from "../../assets/images/solar_solut_ex.png";
 import food_stuff_ex from "../../assets/images/food_stuff_ex.png";
 import forward_button from "../../assets/images/forward_button.png";
+import animal_farming_ex from "../../assets/images/animal_farming_ex.png";
+
+import cosmetics_ex from "../../assets/images/cosmetics_ex.png";
 
 export default {
+  animal_farming_ex,
+  cosmetics_ex,
   forward_button,
   fashion_ex,
   laundry_ex,

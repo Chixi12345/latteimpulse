@@ -25,7 +25,7 @@ const HomeSectionOne = ({ searchBtnHome }) => {
 
           <a
             aria-label="Chat on WhatsApp"
-            href="https://wa.me/8132841719?text= I'm%20interested%20in%20your%20health%20consultation%20services"
+            href="https://wa.me/ 8057718236?text= I'm%20interested%20in%20your%20health%20consultation%20services"
             target="_blank"
             className="homeSection_leftCont_btnC"
           >
