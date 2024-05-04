@@ -22,9 +22,14 @@ const GetStartedSection = () => {
           various sectors:
         </div>
 
-        <div onClick={handleGetsStarted} className="getStarted_btn">
+        <a
+          href="https://api.whatsapp.com/send?phone=+2348033477608&text=I%20am%20reaching%20out%20to%20explore%20your%20business%20offering."
+          target="_blank"
+          className="getStarted_btn"
+          style={{ textDecoration: "none" }}
+        >
           Lets Get Started
-        </div>
+        </a>
       </div>
     </div>
   );

@@ -43,18 +43,24 @@ const Footer = () => {
 
           <div className="footerSecGen1_socialBottom">
             <div className="footerSecGenSocialIcon">
-              <FaFacebookSquare />
+              <a
+                href="https://web.facebook.com/profile.php?id=61558437594591"
+                target="_blank"
+                style={{ textDecoration: "none", color: "#fff" }}
+              >
+                <FaFacebookSquare />
+              </a>
             </div>
-            <div className="footerSecGenSocialIcon">
+            {/* <div className="footerSecGenSocialIcon">
               <FaYoutubeSquare />
             </div>
             <div className="footerSecGenSocialIcon">
               <FaLinkedin />
-            </div>
+            </div> */}
 
             <div className="footerSecGenSocialIcon">
               <a
-                href="https://www.instagram.com/feniphealthcare/"
+                href="https://www.instagram.com/levit7tjc/"
                 target="_blank"
                 style={{ textDecoration: "none", color: "#fff" }}
               >
@@ -98,7 +104,7 @@ const Footer = () => {
             <div className="footerSecGen2_text">Contact</div>
           </Link>
 
-          <Link
+          {/* <Link
             to="/allproducts"
             style={{ textDecoration: "none" }}
             className="footerSecGen2_option"
@@ -107,17 +113,17 @@ const Footer = () => {
               <FaCircle />
             </div>
             <div className="footerSecGen2_text">Products</div>
-          </Link>
+          </Link> */}
         </div>
         <div className="footerSecGen3">
           <div className="footerSecGen3_offHead">Lagos, Nigeria Office</div>
           <div className="footerSecGen3_offPara">
-            8, Badiru Street, Dopemu, Lagos State.
+            House 3 Block B Ama Pepple Estate Isheri Lasu Road, Lagos.
           </div>
 
           <div>
             <a
-              href="tel:+2348132841719"
+              href="tel:+234 8057718236"
               style={{ textDecoration: "none" }}
               className="footerSecGen3_contGen"
               target="_blank"
@@ -125,17 +131,17 @@ const Footer = () => {
               <div className="footerSecGen3_contIcon">
                 <FaPhoneSquare />
               </div>
-              <div className="footerSecGen3_contD">+234 813 284 1719</div>
+              <div className="footerSecGen3_contD">+234 708 110 0729</div>
             </a>
             <a
-              href="https://wa.me/2348132841719/"
+              href="https://wa.me/234 8057718236/"
               target="_blank"
               className="footerSecGen3_contGen"
             >
               <div className="footerSecGen3_contIcon">
                 <FaWhatsapp />
               </div>
-              <div className="footerSecGen3_contD">+234 813 284 1719</div>
+              <div className="footerSecGen3_contD">+234 803 347 7604</div>
             </a>
 
             <a

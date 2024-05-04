@@ -38,6 +38,9 @@ import ServiceUnisex from "./screens/serviceUnisex/ServiceUnisex";
 import ServiceSolar from "./screens/serviceSolar/ServiceSolar";
 import ServiceSuperStore from "./screens/serviceSuperStore/ServiceSuperStore";
 import ServicesTomatoesFarm from "./screens/serviceTomatoesFarm/ServicesTomatoesFarm";
+import ServicesBuildingComp from "./components/servicesBuildingComp/ServicesBuildingComp";
+import ServiceAnimalFarm from "./screens/serviceAnimalFarm/ServiceAnimalFarm";
+import ServiceCosmetics from "./screens/serviceCosmetics/ServiceCosmetics";
 
 export const Homepage = () => {
   return <Home />;
@@ -164,4 +167,12 @@ export const ServiceSuperStorePage = () => {
 
 export const ServiceTomatoesFarmPage = () => {
   return <ServicesTomatoesFarm />;
+};
+
+export const ServiceAnimalFarmPage = () => {
+  return <ServiceAnimalFarm />;
+};
+
+export const ServiceCosmeticsPage = () => {
+  return <ServiceCosmetics />;
 };

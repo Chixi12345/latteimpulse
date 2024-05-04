@@ -96,7 +96,7 @@ const LeftNav = ({ open, openLogoutBtn, closeLogoutBtn, openLogoutPage }) => {
             >
               CONTACT
             </Link>
-            <Link
+            {/* <Link
               to="/allproducts"
               className={
                 splitLocation[1] === "allproducts"
@@ -106,7 +106,7 @@ const LeftNav = ({ open, openLogoutBtn, closeLogoutBtn, openLogoutPage }) => {
               style={{ textDecoration: "none" }}
             >
               PRODUCTS
-            </Link>
+            </Link> */}
             {/* <Link
               to="/training"
               className={

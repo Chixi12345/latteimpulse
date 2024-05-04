@@ -165,4 +165,28 @@ export const servicesData = [
       "Cultivate success with our tomatoes farming solutions. From seeds to cultivation techniques, we provide comprehensive support for your farming endeavors.",
     sectionRoute: "/services/tomatoes-farm",
   },
+
+  {
+    sectionImg: UpdateImages.animal_farming_ex,
+    sectionHeading: "Animal Farming",
+    sectionFirstPara:
+      "Discover the Finest Livestock Selection for Your Farm-to-Table Needs!  ",
+    sectionSecondPara:
+      "From premium beef and succulent lamb to tender poultry and fresh eggs.",
+    sectionPara:
+      "Discover the Finest Livestock Selection for Your Farm-to-Table Needs! From premium beef and succulent lamb to tender poultry and fresh eggs.",
+    sectionRoute: "/services/cosmetics",
+  },
+
+  {
+    sectionImg: UpdateImages.cosmetics_ex,
+    sectionHeading: "Cosmetics",
+    sectionFirstPara:
+      "Elevate Your Beauty Routine with Our Exquisite Cosmetics Collection! ",
+    sectionSecondPara:
+      "From radiant skincare essentials to dazzling makeup must-haves.",
+    sectionPara:
+      "Elevate Your Beauty Routine with Our Exquisite Cosmetics Collection! From radiant skincare essentials to dazzling makeup must-haves.",
+    sectionRoute: "/services/animal-farm",
+  },
 ];
